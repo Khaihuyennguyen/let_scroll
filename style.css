@@ -19,10 +19,11 @@ section {
     the height of our browser window */
     height: 100vh;
     /*background-color: yellow;*/
-    background-image: url(images/sally_2.jpg);
+    /* background-image: url(images/sally_2.jpg); */
     /* Our background image will cover the full width and height
     of our section without skweing */
     background-size: cover;
+    background-position: center;
     background-attachment: fixed;
 
 }
@@ -65,7 +66,9 @@ over them clicked on them etc. this is called a pseudo selector */
 a:hover {
     color: #dddddd;
 }
-
+.image_1 {
+    background-image: url(images/sally_1.jpg);
+}
 .image_2 {
     background-image: url(images/sally_2.jpg);
 }
@@ -75,6 +78,20 @@ a:hover {
 }
 
 .image_4 {
-    background: url(images/sally_4.jpg);
+    background-image: url(images/sally_4.jpg);
 }
 
+.image_5 {
+    background-image: url(images/sally_5.jpg);
+}
+
+.image_6 {
+    background-image: url(images/sally_6.jpg);
+}
+
+.image_7 {
+    background-image: url(images/sally_7.jpg);
+}
+.image_8 {
+    background-image: url(images/sally_8.jpg);
+}
